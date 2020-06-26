@@ -34,8 +34,10 @@ for item in `ls $BIN/v-list-sys-*`; do
     echo "(*) Collecting data from $item..."
     bash $item >> $HOME/hestiacp_diag_$DATECODE.log
 done
+
+
 echo ""
 echo "*****************************************************"
-echo "Diagnostic report has been saved saved to:"
+echo "Diagnostic report has been saved to:"
 echo "$HOME/hestiacp_diag_$DATECODE.log"
 echo "*****************************************************"
