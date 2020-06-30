@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [CURRENT] - Development
 
-## [1.2.0] - 2020-06-29 - Major Release (Feature / Quality Update)
+## [1.2.0] - Major Release (Feature / Quality Update)
 ### Features
 - Added support for Ubuntu Server 20.04 LTS.
 - Added File Manager functionality (Filegator).
@@ -52,6 +52,8 @@ All notable changes to this project will be documented in this file.
 - Fixed an issue where the backup update counter was not updated properly when v-delete-user-backup was executed.
 - Fixed an issue with public_(s)html file ownership.
 - Fixed an issue with phpPgAdmin access.
+- Fixed an issue where the wrong port was set for www.conf on certain configurations.
+- Fixed an issue where Composer would fail to install.
 
 ## [1.1.1] - 2020-03-24 - Hotfix
 ### Features
